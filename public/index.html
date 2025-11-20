@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Dnassir</title>
+
+  <!-- ✅ Ligne essentielle pour le mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ✅ Lien vers ton fichier CSS séparé -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="title"></div>
+  <div id="subtitle">Plongez au cœur de l'IA avec DERRA Nassir</div>
+  <button id="continueBtn">Continuer</button>
+
+  <div id="chatSection">
+    <h2>🤖 Chatbot King</h2>
+    <div id="chatbox">
+      <div class="message">🤖 King : Bienvenue, je suis King, l’IA de Nassir.</div>
+    </div>
+    <div id="inputArea">
+      <input type="text" id="userInput" placeholder="Pose une question à King...">
+      <button class="send" onclick="sendMessage()">Envoyer</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
